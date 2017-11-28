@@ -5,5 +5,6 @@ const arrPerson = [
 ];
 
 // arrPerson.forEach(person => console.log(person.height));
-const result = arrPerson.filter(person => person.age > 12);
+// const result = arrPerson.filter(person => person.age > 12);
+const result = arrPerson.myFilter(person => person.age > 12);
 console.log(result);
